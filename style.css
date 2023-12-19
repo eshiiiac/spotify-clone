@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+#home{
+    height: 100svh;
+    width: auto;
+.home{
+    height: 100svh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#05e086, #05e086);
+} 
+}
+.container{
+    background-color: #70e99c;
+    height: 80%;
+    width: 60%;
+    box-shadow: -15px 50px 90px black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+.box1{
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: linear-gradient(#5fec99, #3bd171, #24c156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.text1 h2{
+    font-size: 2rem;
+
+}
+.text1 h4{
+    font-size: 1.3rem;
+    text-align: center;
+}
+.text1 h3{
+    margin-top:5% ;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.text1 h3 span{
+    font-weight: 100;
+    font-size: 1rem;
+}
+.features li {
+    margin-top: 10%;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.offer{
+    margin-top: 5%;
+    font-size: 1rem;
+    font-weight: 200;
+}
+.info{
+    font-size: 0.3rem;
+padding: 20px;
+}
+
+.box2{
+    width: 60%;
+    height: 100%;
+    background-color: #1f424e;
+    background: linear-gradient(#2c606e, #1e404a, #1e404a);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+   /* justify-content: center;*/
+    /*align-items: center;*/
+    
+
+}
+.signin {
+    margin-left: 10vh;
+}
+.logo i {
+    font-size: 3rem;
+    margin-top: 10vh;
+
+}
+.login{
+    margin-top:5ch;
+    color: white;
+}
+.forum{
+    margin-top: 5vh;
+    width: 70%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.forum label{
+    color: white;
+}
+.forum #name, #email, #pass{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    color: white;
+}
+.forum p, a{
+    color: white;
+    text-decoration: dotted;
+    font-size: 0.8rem;
+}
+.submit{
+    background-color: white;
+    padding: 10px;
+    color: #05e086;
+    width: 12vh;
+    text-align: center;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.submit:hover{
+    color: white;
+    background: linear-gradient(#05e086, #04b36a);
+}
